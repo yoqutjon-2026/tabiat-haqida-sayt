@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mening Veb-Sahifam | Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #4a90e2, #50e3c2);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            background-color: #1e293b;
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #50e3c2;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        h2 {
+            color: #1e293b;
+            border-bottom: 2px solid #50e3c2;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none;
+        }
+
+        .skills-list li {
+            background: #e2e8f0;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e293b;
+            color: white;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+            nav {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Xush Kelibsiz!</h1>
+        <p>Veb-dasturchi & Vizioner</p>
+    </header>
+
+    <nav>
+        <a href="#about">Men Haqimda</a>
+        <a href="#skills">Ko'nikmalar</a>
+        <a href="#contact">Aloqa</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>Men Haqimda</h2>
+            <p>Salom! Men zamonaviy va foydalanuvchilar uchun qulay veb-saytlar yaratishga qiziqaman. Kod yozish va yangi texnologiyalarni o'rganish mening asosiy mashg'ulotimdir.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Ko'nikmalarim</h2>
+            <ul class="skills-list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Responsive Design</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Bog'lanish</h2>
+            <p>Savollaringiz yoki takliflaringiz bo'lsa, menga xabar qoldiring:</p>
+            <br>
+            <p><strong>Email:</strong> misol@example.com</p>
+            <p><strong>Telegram:</strong> @username</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Mening Veb-Sahifam. Barcha huquqlar himoyalangan.</p>
+    </footer>
+
+</body>
+</html>
